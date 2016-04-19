@@ -6,4 +6,4 @@
 * 房间内成员退出会自动刷新对应房间的【在线信息】
 * 房间内所有成员退出时，会自动删除该房间，刷新【房间信息】
 
-![chat-room](http://git.oschina.net/polarisSky/chat-room/attach_files/download?i=33988&u=http%3A%2F%2Ffiles.git.oschina.net%2Fgroup1%2FM00%2F00%2FF3%2FZxV3aVcScM-AarFHAAAt6PL3bbE537.PNG%3Ftoken%3Db5b6cb1848ed3022d60f6e9b14c6f5fd%26ts%3D1460826267%26attname%3Dchat-room.PNG)
+![chat-room](https://raw.githubusercontent.com/PolarisSky/chatroom/master/chat-room.PNG)
