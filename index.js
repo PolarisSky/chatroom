@@ -3,6 +3,7 @@ const http=require('http');
 const pug=require('pug');
 const iosocket=require('socket.io');
 
+const port = 8001
 const server=http.createServer((req,res)=>{
     res.writeHeader(200,{'Content-Type':'text/html'});
     if(req.url==='/'){
@@ -11,7 +12,8 @@ const server=http.createServer((req,res)=>{
         res.end();
     }
 });
-server.listen(8001);
+server.listen(port);
+console.log(`服务器已成功启动: http://localhost:${port}`)
 
 const io=iosocket.listen(server);
 io.on('connection',function(socket){
